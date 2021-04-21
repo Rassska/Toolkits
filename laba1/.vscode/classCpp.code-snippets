@@ -1,0 +1,13 @@
+{
+	
+	"Create a class": {
+		"scope": "cpp",
+		"prefix": "classCpp",
+		"body": [
+			"    $2::$2() = default;",
+			"    $2::~$2() = default;",
+			"}"
+		],
+		"description": "Body of class in .cpp file"
+	}
+}

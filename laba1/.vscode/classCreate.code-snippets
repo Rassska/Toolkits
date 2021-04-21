@@ -1,0 +1,14 @@
+{
+	
+	"Create a class": {
+		"scope": "cpp",
+		"prefix": "classH",
+		"body": [
+			"class $2{",
+			"    $2();",
+			"    ~$2();",
+			"}"
+		],
+		"description": "Body of class in .h file"
+	}
+}

@@ -1,12 +1,12 @@
 #include <iostream>
 #include "consoleCalc.h"
 #include "tests.hpp"
-
+#include <vector>
 int main () {
 
     consoleCalc simpleCalc;
     tests simpleTests;
-
+    
     try{
         simpleTests.run();
         double a, b;

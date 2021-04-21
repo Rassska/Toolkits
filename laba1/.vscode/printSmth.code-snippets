@@ -1,0 +1,11 @@
+{
+	
+	"Print something": {
+		"scope": "cpp",
+		"prefix": "cout",
+		"body": [
+			"std::cout << $0 << std::endl;"
+		],
+		"description": "Print in cpp"
+	}
+}

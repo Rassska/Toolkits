@@ -1,0 +1,12 @@
+{
+	"quick for loop til certain arg": {
+		"scope": "cpp",
+		"prefix": "fori",
+		"body": [
+			"for (int i = 0; i < ($1); ++i) {",
+				"$2",
+			"}",
+		],
+		"description": "If you type forin, u can get whole integer loop til certain arg"
+	}
+}

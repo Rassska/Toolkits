@@ -1,0 +1,11 @@
+{
+	
+	"Create a vector": {
+		"scope": "cpp",
+		"prefix": "vec_vec_int",
+		"body": [
+			"std::vector<std::vector<int>> $1($2);",
+		],
+		"description": "Body of vector of vectors"
+	}
+}
